@@ -13,7 +13,13 @@
 		B9B0BDE01CCDCDFC004EA9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B0BDDE1CCDCDFC004EA9EB /* Main.storyboard */; };
 		B9B0BDE21CCDCDFC004EA9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B0BDE11CCDCDFC004EA9EB /* Assets.xcassets */; };
 		B9B0BDE51CCDCDFC004EA9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B0BDE31CCDCDFC004EA9EB /* LaunchScreen.storyboard */; };
-		B9B0BDF11CCDF48F004EA9EB /* XTSideMenu in Resources */ = {isa = PBXBuildFile; fileRef = B9B0BDF01CCDF48F004EA9EB /* XTSideMenu */; };
+		B9B0BE0E1CCDF750004EA9EB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE091CCDF74F004EA9EB /* UIImage+ImageEffects.m */; };
+		B9B0BE0F1CCDF750004EA9EB /* UIView+XTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE0B1CCDF74F004EA9EB /* UIView+XTFrame.m */; };
+		B9B0BE101CCDF750004EA9EB /* XTBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE0D1CCDF750004EA9EB /* XTBlurView.m */; };
+		B9B0BE151CCDF764004EA9EB /* UIViewController+XTSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE121CCDF764004EA9EB /* UIViewController+XTSideMenu.m */; };
+		B9B0BE161CCDF764004EA9EB /* XTSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE141CCDF764004EA9EB /* XTSideMenu.m */; };
+		B9B0BE191CCDFE19004EA9EB /* LeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE181CCDFE19004EA9EB /* LeftMenuController.m */; };
+		B9B0BE1C1CCDFE2B004EA9EB /* RightMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B0BE1B1CCDFE2B004EA9EB /* RightMenuController.m */; };
 		D5803F25DF8516E48D732597 /* libPods-KMHouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E616F0E309BD6733BD3B2DCF /* libPods-KMHouse.a */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +35,21 @@
 		B9B0BDE11CCDCDFC004EA9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9B0BDE41CCDCDFC004EA9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9B0BDE61CCDCDFC004EA9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9B0BDF01CCDF48F004EA9EB /* XTSideMenu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = XTSideMenu; path = Framework/XTSideMenu; sourceTree = "<group>"; };
+		B9B0BE081CCDF74F004EA9EB /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Framework/XTSideMenu/XTSideMenuHelper/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		B9B0BE091CCDF74F004EA9EB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Framework/XTSideMenu/XTSideMenuHelper/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		B9B0BE0A1CCDF74F004EA9EB /* UIView+XTFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+XTFrame.h"; path = "Framework/XTSideMenu/XTSideMenuHelper/UIView+XTFrame.h"; sourceTree = "<group>"; };
+		B9B0BE0B1CCDF74F004EA9EB /* UIView+XTFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+XTFrame.m"; path = "Framework/XTSideMenu/XTSideMenuHelper/UIView+XTFrame.m"; sourceTree = "<group>"; };
+		B9B0BE0C1CCDF74F004EA9EB /* XTBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTBlurView.h; path = Framework/XTSideMenu/XTSideMenuHelper/XTBlurView.h; sourceTree = "<group>"; };
+		B9B0BE0D1CCDF750004EA9EB /* XTBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTBlurView.m; path = Framework/XTSideMenu/XTSideMenuHelper/XTBlurView.m; sourceTree = "<group>"; };
+		B9B0BE111CCDF764004EA9EB /* UIViewController+XTSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+XTSideMenu.h"; path = "Framework/XTSideMenu/UIViewController+XTSideMenu.h"; sourceTree = "<group>"; };
+		B9B0BE121CCDF764004EA9EB /* UIViewController+XTSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+XTSideMenu.m"; path = "Framework/XTSideMenu/UIViewController+XTSideMenu.m"; sourceTree = "<group>"; };
+		B9B0BE131CCDF764004EA9EB /* XTSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTSideMenu.h; path = Framework/XTSideMenu/XTSideMenu.h; sourceTree = "<group>"; };
+		B9B0BE141CCDF764004EA9EB /* XTSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTSideMenu.m; path = Framework/XTSideMenu/XTSideMenu.m; sourceTree = "<group>"; };
+		B9B0BE171CCDFE19004EA9EB /* LeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuController.h; sourceTree = "<group>"; };
+		B9B0BE181CCDFE19004EA9EB /* LeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuController.m; sourceTree = "<group>"; };
+		B9B0BE1A1CCDFE2B004EA9EB /* RightMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuController.h; sourceTree = "<group>"; };
+		B9B0BE1B1CCDFE2B004EA9EB /* RightMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuController.m; sourceTree = "<group>"; };
+		B9B0BE1E1CCE14C0004EA9EB /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		C9F7C26FFBF4C75CA37AAFA8 /* Pods-KMHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMHouse/Pods-KMHouse.release.xcconfig"; sourceTree = "<group>"; };
 		E616F0E309BD6733BD3B2DCF /* libPods-KMHouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KMHouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +105,7 @@
 		B9B0BDD41CCDCDFC004EA9EB /* KMHouse */ = {
 			isa = PBXGroup;
 			children = (
+				B9B0BE1E1CCE14C0004EA9EB /* Utility.h */,
 				B9B0BDD81CCDCDFC004EA9EB /* AppDelegate.h */,
 				B9B0BDD91CCDCDFC004EA9EB /* AppDelegate.m */,
 				B9B0BDDB1CCDCDFC004EA9EB /* ViewController.h */,
@@ -94,6 +115,10 @@
 				B9B0BDE31CCDCDFC004EA9EB /* LaunchScreen.storyboard */,
 				B9B0BDE61CCDCDFC004EA9EB /* Info.plist */,
 				B9B0BDD51CCDCDFC004EA9EB /* Supporting Files */,
+				B9B0BE171CCDFE19004EA9EB /* LeftMenuController.h */,
+				B9B0BE181CCDFE19004EA9EB /* LeftMenuController.m */,
+				B9B0BE1A1CCDFE2B004EA9EB /* RightMenuController.h */,
+				B9B0BE1B1CCDFE2B004EA9EB /* RightMenuController.m */,
 			);
 			path = KMHouse;
 			sourceTree = "<group>";
@@ -109,9 +134,34 @@
 		B9B0BDEF1CCDF45A004EA9EB /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				B9B0BDF01CCDF48F004EA9EB /* XTSideMenu */,
+				B9B0BE061CCDF714004EA9EB /* XTSideMenu */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		B9B0BE061CCDF714004EA9EB /* XTSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B9B0BE111CCDF764004EA9EB /* UIViewController+XTSideMenu.h */,
+				B9B0BE121CCDF764004EA9EB /* UIViewController+XTSideMenu.m */,
+				B9B0BE131CCDF764004EA9EB /* XTSideMenu.h */,
+				B9B0BE141CCDF764004EA9EB /* XTSideMenu.m */,
+				B9B0BE071CCDF71A004EA9EB /* XTSideMenuHelper */,
+			);
+			name = XTSideMenu;
+			sourceTree = "<group>";
+		};
+		B9B0BE071CCDF71A004EA9EB /* XTSideMenuHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B9B0BE081CCDF74F004EA9EB /* UIImage+ImageEffects.h */,
+				B9B0BE091CCDF74F004EA9EB /* UIImage+ImageEffects.m */,
+				B9B0BE0A1CCDF74F004EA9EB /* UIView+XTFrame.h */,
+				B9B0BE0B1CCDF74F004EA9EB /* UIView+XTFrame.m */,
+				B9B0BE0C1CCDF74F004EA9EB /* XTBlurView.h */,
+				B9B0BE0D1CCDF750004EA9EB /* XTBlurView.m */,
+			);
+			name = XTSideMenuHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +224,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B0BDF11CCDF48F004EA9EB /* XTSideMenu in Resources */,
 				B9B0BDE51CCDCDFC004EA9EB /* LaunchScreen.storyboard in Resources */,
 				B9B0BDE21CCDCDFC004EA9EB /* Assets.xcassets in Resources */,
 				B9B0BDE01CCDCDFC004EA9EB /* Main.storyboard in Resources */,
@@ -236,9 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B0BE0E1CCDF750004EA9EB /* UIImage+ImageEffects.m in Sources */,
+				B9B0BE101CCDF750004EA9EB /* XTBlurView.m in Sources */,
 				B9B0BDDD1CCDCDFC004EA9EB /* ViewController.m in Sources */,
+				B9B0BE1C1CCDFE2B004EA9EB /* RightMenuController.m in Sources */,
+				B9B0BE0F1CCDF750004EA9EB /* UIView+XTFrame.m in Sources */,
+				B9B0BE191CCDFE19004EA9EB /* LeftMenuController.m in Sources */,
 				B9B0BDDA1CCDCDFC004EA9EB /* AppDelegate.m in Sources */,
+				B9B0BE161CCDF764004EA9EB /* XTSideMenu.m in Sources */,
 				B9B0BDD71CCDCDFC004EA9EB /* main.m in Sources */,
+				B9B0BE151CCDF764004EA9EB /* UIViewController+XTSideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

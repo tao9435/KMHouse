@@ -8,13 +8,6 @@
 
 #import "XTSideMenu.h"
 
-typedef NS_ENUM(NSUInteger, XTSideMenuVisibleType) {
-    XTSideMenuVisibleTypeContent = 0,
-    XTSideMenuVisibleTypeLeft = 1,
-    XTSideMenuVisibleTypeRight = 2,
-    XTSideMenuVisibleTypeMoving = 3,
-};
-
 typedef NS_ENUM(NSUInteger, XTSideMenuShowType) {
     XTSideMenuShowTypeNone = 0,
     XTSideMenuShowTypeLeft = 1,
@@ -57,7 +50,14 @@ typedef NS_ENUM(NSUInteger, XTSideMenuDelegateType) {
 @property (nonatomic, strong) XTBlurView *contentBlurView;
 
 @end
-
+/*
+ 
+ XTSideMenuVisibleTypeContent = 0,
+ XTSideMenuVisibleTypeLeft = 1,
+ XTSideMenuVisibleTypeRight = 2,
+ XTSideMenuVisibleTypeMoving = 3,
+ 
+ */
 @implementation XTSideMenu
 
 - (id)init
@@ -84,7 +84,7 @@ typedef NS_ENUM(NSUInteger, XTSideMenuDelegateType) {
     
     _leftMenuViewVisibleWidth = 240;
     
-    _rightMenuViewVisibleWidth = 320;
+    _rightMenuViewVisibleWidth = 240;
     
     _animationDuration = 0.35;
     
@@ -971,5 +971,7 @@ _Pragma("clang diagnostic pop") \
     }
 }
 
-
+- (XTSideMenuVisibleType) visible{
+    return _visibleType;
+}
 @end

@@ -10,6 +10,13 @@
 #import "UIView+XTFrame.h"
 #import "XTBlurView.h"
 
+typedef NS_ENUM(NSUInteger, XTSideMenuVisibleType) {
+    XTSideMenuVisibleTypeContent = 0,
+    XTSideMenuVisibleTypeLeft = 1,
+    XTSideMenuVisibleTypeRight = 2,
+    XTSideMenuVisibleTypeMoving = 3,
+};
+
 @protocol XTSideMenuDelegate;
 
 @interface XTSideMenu : UIViewController
@@ -49,6 +56,8 @@
 @property (nonatomic) CGFloat menuOpacityViewRightMinAlpha;
 
 @property (nonatomic) CGFloat menuOpacityViewRightMaxAlpha;
+
+- (XTSideMenuVisibleType) visible;
 
 - (instancetype)initWithContentViewController:(UIViewController *)contentViewController
                        leftMenuViewController:(UIViewController *)leftMenuViewController
