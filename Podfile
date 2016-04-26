@@ -4,7 +4,6 @@
 # use_frameworks!
 
 target 'KMHouse' do
-pod 'MMDrawerController', '~> 0.5.7'
 pod 'AFNetworking'
 pod 'SDWebImage'
 end
